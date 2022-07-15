@@ -12,10 +12,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Motion>
-      <Fr45 />
+      {/* <Fr45 />
       <Fr46 />
       <Fr47 />
-      <Fr48 />
+      <Fr48 /> */}
       <Fr49 />
     </Motion>
   </React.StrictMode>

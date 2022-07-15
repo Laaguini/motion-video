@@ -14,8 +14,13 @@ const Fr49 = () => {
                 </div>
             </div>
             <img src={Pokeballs} className={style.fade} style={{["--delay"]: 1500 + "ms"}} alt="" />
-            <div className={`${style["text"]} ${style.fade}`}>
-                {description}
+            <div>
+                <div className={`${style["text"]} ${style.fade}`}>
+                    {description}
+                </div>
+                <div className={style["link"]}>
+                    <a href="#">с полными правилами игры вы можете ознакомиться по ссылке tokemons.info</a>
+                </div>
             </div>
         </div>
     )

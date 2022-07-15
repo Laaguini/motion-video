@@ -16,8 +16,7 @@ const Motion = ({children}) => {
         <div className="motion-video">
             {children.length > 1 &&
             children.map((Child, i) =>  (i === current) && <div key={i} className={style[`motion-wrapper`]}>{Child}</div>)
-            || <div className={style[`motion-wrapper`]}>{children}</div>
-        }
+            || <div className={style[`motion-wrapper`]}>{children}</div>}
         </div>
     )
 }
