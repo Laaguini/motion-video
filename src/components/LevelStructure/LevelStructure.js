@@ -1,6 +1,6 @@
-import Logo from "./assets/logo.png"
-import style from './fr49.module.css'
-import Pokeballs from './assets/fr49-illustration.png'
+import Logo from "../../assets/logo.png"
+import style from './LevelStructure.module.css'
+import Pokeballs from '../../assets/fr49-illustration.png'
 
 const Fr49 = () => {
     let title = "Structure of each level"

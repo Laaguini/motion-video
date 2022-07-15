@@ -1,4 +1,12 @@
-@import "./index.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
 @keyframes fade {
     0% {
         opacity: 0
@@ -20,7 +28,7 @@
 .wrapper{
     width: 100vw;
     min-height: 100vh;
-    background-image: url('./assets/fr46-background.png');
+    background-image: url('../../assets/fr46-background.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -91,17 +99,17 @@
     text-transform: uppercase;
 }
 .bronze{
-    background-image: url('./assets/bronze-background.png');
+    background-image: url('../../assets/bronze-background.png');
     color: #FFFFFF;
 }
 .silver{
-    background-image: url('./assets/silver-background.png');
+    background-image: url('../../assets/silver-background.png');
 }
 .gold{
-    background-image: url('./assets/gold-background.png');
+    background-image: url('../../assets/gold-background.png');
 }
 .emerald{
-    background-image: url('./assets/emerald-background.png');
+    background-image: url('../../assets/emerald-background.png');
     color: #FFFFFF;
 }
 .logo{

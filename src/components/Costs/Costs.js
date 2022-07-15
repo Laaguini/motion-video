@@ -1,6 +1,6 @@
-import style from "./fr46.module.css"
-import PokebollImg from "./assets/pokeboll.svg"
-import Logo from "./assets/logo.png";
+import style from "./Costs.module.css"
+import PokebollImg from "../../assets/pokeboll.svg"
+import Logo from "../../assets/logo.png";
 
 let Col = ({cost, league, content, delay}) => {
 
@@ -13,11 +13,11 @@ let Col = ({cost, league, content, delay}) => {
 }
 
 
-let Row = ({cols, delay}) => {
+let Row = ({cols, delay, num}) => {
 	const leagues = ["bronze", "silver", "gold", "emerald"]
 	return (
 		<div className={style["table-row"]}>
-			<div className={style["row-number"]}>1</div>
+			<div className={style["row-number"]}>{num}</div>
 			{cols.map((col, i) => <Col key={i} delay={delay + i * 100} cost={!isNaN(col) && col || null} content={col} league={leagues[i]}/>)}
 		</div>
 	)
@@ -40,7 +40,7 @@ const Fr46 = ({rows=[
 			</div>
 			<div className={style["content"]}>
 				<div className={style["table"]}>
-					{rows.map((row, i) => <Row key={i} cols={row} delay={400 * i}/>)}
+					{rows.map((row, i) => <Row key={i} cols={row} delay={400 * i} num={i + 1}/>)}
 				</div>
 				<img src="../assets/boy-img.png" alt="" style={{maxHeight: 550 + "px"}} />
 			</div>

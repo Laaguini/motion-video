@@ -1,6 +1,6 @@
-import Logo from "./assets/logo.png"
-import Pokeboll from "./assets/pokeboll.svg"
-import style from './fr47.module.css'
+import Logo from "../../assets/logo.png"
+import Pokeboll from "../../assets/pokeboll.svg"
+import style from './AffiliateProgram.module.css'
 
 const Fr47 = () => {
     let title = "affiliate program"

@@ -1,6 +1,6 @@
-import Logo from "./assets/logo.png"
-import SideImage from "./assets/fr48-side-image.png"
-import style from './fr48.module.css'
+import Logo from "../../assets/logo.png"
+import SideImage from "../../assets/fr48-side-image.png"
+import style from './BudgetAllocation.module.css'
 
 const Fr48 = () => {
     let title = "BUDGET ALLOCATION"

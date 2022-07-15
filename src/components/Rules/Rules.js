@@ -1,6 +1,6 @@
-import Logo from "./assets/logo.png"
-import Pokeboll from "./assets/pokeboll.svg"
-import style from './fr45.module.css'
+import Logo from "../../assets/logo.png"
+import Pokeboll from "../../assets/pokeboll.svg"
+import style from './Rules.module.css'
 
 const Fr45 = () => {
     let title = "description"
