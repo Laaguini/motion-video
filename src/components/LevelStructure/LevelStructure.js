@@ -17,9 +17,7 @@ const Fr49 = () => {
             <div>
                 <div className={`${style["text"]} ${style.fade}`}>
                     {description}
-                </div>
-                <div className={style["link"]}>
-                    <a href="#">с полными правилами игры вы можете ознакомиться по ссылке tokemons.info</a>
+                    <a href="#" className={`${style.link} ${style.fade}`} style={{["--delay"]: 1000 + "ms"}}>с полными правилами игры вы можете ознакомиться по ссылке tokemons.info</a>
                 </div>
             </div>
         </div>

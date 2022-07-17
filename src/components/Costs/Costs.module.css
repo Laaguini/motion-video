@@ -62,7 +62,6 @@
 .table{
     display: flex;
     flex-direction: column;
-    /* max-height: 600px; */
     width: 100%;
     margin-right: 15px;
     gap: 2rem;
