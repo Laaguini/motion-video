@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Roboto;
+    --delay: 500ms;
 }
 
-@keyframes fade {
-    0% {
-        opacity: 0
-    }
-    1% {
-        opacity: 1
-    }
-    100% {
-        opacity: 1
-    }
-}
-* {
-    --delay: 500ms
-}
 .fade {
     opacity: 0; 
     animation: fade 100s ease-out infinite var(--delay);
