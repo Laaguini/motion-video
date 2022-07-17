@@ -29,7 +29,7 @@ const Fr45 = () => {
                 <fieldset className={style["game-rules"]}>
                     <legend className={`${style["fade"]} ${style["title"]}`} style={{fontSize: 59 + "px",}} >{rulesTitle}</legend>
                     <div className={style["rules"]}>
-                        {rules.map((rule, i) => <div className={`${style["fade"]}`} style={{["--delay"]: 1000 + i * 100 + "ms"}}>-{rule}</div>)}
+                        {rules.map((rule, i) => <div key={i} className={`${style["fade"]}`} style={{["--delay"]: 1000 + i * 100 + "ms"}}>-{rule}</div>)}
                     </div>
                 </fieldset>
             </div>
